@@ -9,7 +9,7 @@ pipeline {
                     sh 'pip install boto3'
 
                     // Execute the Python script
-                    sh 'python create_ec2.py'
+                    sh 'python myec2.py'
                 }
             }
         }
